@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fonts Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8c2bea1cc9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Luis's Portafolio</title>
+  </head>
+  <body>
+    <!-- ************************ Aside Nave ************************ -->
+    <aside id="side-nav">
+      <div class="side-nav__content">
+        <div class="side-nav__content--logo">
+          <img src="img/logo-red.jpg" alt="logo" />
+        </div>
+        <ul class="side-nav__content--social">
+          <a href="https://www.facebook.com/luis.pichardobautista" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/Luis_P88"  target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/luis-pichardo-a935a88b/"  target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/luis_p88/"  target="_blank"><i class="fab fa-instagram"></i></a>
+        </ul>
+      </div>
+    </aside>
+    <!-- ************************ Main Content ************************ -->
+    <main>
+      <!-- ************************ Main Content ************************ -->
+      <header id="header">
+        <nav id="header__main-nav">
+          <div class="header__main-nav--hamburger">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <ul class="header__main-nav--links">
+            <li><a href=".">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- **************************** Showcase / Hero Section ***************** -->
+      <section id="showcase">
+        <div class="showcase__content">
+          <h1 class="showcase__content--title">Luis Pichardo</h1>
+          <p class="showcase__content--para">Frontend / Backend Developer</p>
+          <a href="#work" class="showcase__content--link">My Work</a>
+        </div>
+      </section>
+      <!-- **************************** My Work ***************** -->
+      <section id="work">
+        <div class="work__title">
+          <h2>My Projects</h2>
+        </div>
+        <div class="work__card">
+          <a href="https://crwn-retail.herokuapp.com/" target="_blank" rel="crwn retail">
+          <div class="work__card--img">
+            <img src="img/crown-clothes.jpg" alt="Clothes store app" />
+          </div>
+          <div class="work__card--content">
+            <h3 class="work__card--content__title">Crwn Clothing</h3>
+            <p class="work__card--content__para">
+              E-commerce website made with ReactJS, using Firebase as database and Stripes API for online payments.
+            </p>
+        </div>
+         </a>
+        </div>
+        <div class="work__card">
+          <a href="https://smartbrain-luispichardo.herokuapp.com/" target="_blank" rel="smartbrain">
+          <div class="work__card--img">
+            <img src="img/smartbrain.jpg" alt="Face recognition app" />
+          </div>
+          <div class="work__card--content">
+            <h3 class="work__card--content__title">Smartbrain</h3>
+            <p class="work__card--content__para">
+              Face recognition app made with ReactJS, using Clarifai API for face recognition. It also has working login / signin features.
+            </p>
+        </div>
+        </a>
+        </div>
+        <div class="work__card">
+           <a href="https://forkify-luis.netlify.app/" target="_blank" rel="forkify">
+          <div class="work__card--img">
+            <img src="img/forkify.jpg" alt="Recipe search app" />
+          </div>
+          <div class="work__card--content">
+            <h3 class="work__card--content__title">forkify</h3>
+            <p class="work__card--content__para">
+              Find more than 1 million recipes, or register your own so you can be a master chef in your kitchen.
+            </p>
+        </div>
+        </a>
+        </div>
+        <div class="work__card">
+           <a href="https://mapty-luispichardo.netlify.app/" target="_blank" rel="mapty">
+          <div class="work__card--img">
+            <img src="img/mapty.jpg" alt="Excersize tracking app" />
+          </div>
+          <div class="work__card--content">
+            <h3 class="work__card--content__title">Mapty</h3>
+            <p class="work__card--content__para">
+             Track your Excersize route and metrics using this minimalist application. This app uses the opensource Leaflet API to handle map functionality.
+            </p>
+        </div>
+        </a>
+        </div>
+        <div class="work__card">
+           <a href="https://naruto-guess.netlify.app/" target="_blank" rel="Naruto guess number">
+          <div class="work__card--img">
+            <img src="img/naruto-guess.jpg" alt="Guess number app" />
+          </div>
+          <div class="work__card--content">
+            <h3 class="work__card--content__title">Naruto Guess Number</h3>
+            <p class="work__card--content__para">
+              Fun guess number game inspired in Naruto's anime. Defeat the Kyuubi before he can defeat you in a battle for supremacy.
+            </p>
+        </div>
+        </a>
+        </div>
+        <div class="work__card">
+           <a href="https://famous-alpaca-bb2e71.netlify.app/" target="_blank" rel="Check Weather">
+          <div class="work__card--img">
+            <img src="img/weatherapp.jpg" alt="Weather app" />
+          </div>
+          <div class="work__card--content">
+            <h3 class="work__card--content__title">Check Weather</h3>
+            <p class="work__card--content__para">
+              Check weather per country with this beautiful and minimalist application. 
+            </p>
+            <p class="work__card--content__para under_construction">Under construction</p>
+        </div>
+        </a>
+        </div>
+      </section>
+      <!-- ***************************** About Me ***************************** -->
+      <section id="about-me">
+        <div class="about-me__img">
+          <img src="img/IMG_9606.jpg" alt="ME" />
+        </div>
+        <div class="about-me__content">
+          <h2 class="about-me__content--title">About Me</h2>
+          <p class="about-me__content--para">
+            Passionate developer with more than 10+ years of experience working
+            with different technologies and business solutions, who likes to
+            study about modern technologies and new features. My preferred
+            programming language is JavaScript, and i have a lot of experience
+            working with .NET applications and CRM solutions, as well as
+            ReactJS.
+          </p>
+          <a href="#" class="about-me__content--link">Read More</a>
+        </div>
+      </section>
+      <section id="services">
+        <!-- Service 1 -->
+        <div class="service services__service-1">
+          <i class="fa-solid fa-code"></i>
+          <h3 class="services--title services__service-1--title">FrontEnd Development</h3>
+          <p class="services--para services__service-1--para">
+            Html / CSS. HTML5 / CSS3, Sass, JavaScript, React 16.8, React (17, 18), TypeScript, Flow (Type checker) 
+          </p>
+        </div>
+        <!-- Service 2 -->
+        <div class="service services__service-2">
+          <i class="fa-solid fa-server"></i>
+          <h3 class="services--title services__service-2--title">
+            BackEnd / API Development
+          </h3>
+          <p class="services--para services__service-2--para">
+            NodeJS, TypeScript, Express, Postgres, Firebase, Microsoft SQL Database Management, Oracle Database
+          </p>
+        </div>
+        <!-- Service 3 -->
+        <div class="service services__service-3">
+          <i class="fa-solid fa-globe"></i>
+          <h3 class="services--title services__service-3--title">
+            Unit Testing
+          </h3>
+          <p class="services--para services__service-3--para">
+            Jest, Cypress
+          </p>
+        </div>
+        <!-- Service 4 -->
+        <div class="service services__service-4">
+         <i class="fa-solid fa-desktop"></i>
+          <h3 class="services--title services__service-4--title">
+            .NET Development
+          </h3>
+          <p class="services--para services__service-4--para">
+            C#, ASP.NET(MVC(3,4,5), Webforms, Core), JavaScript, VB.NET, ASP(Classic)
+          </p>
+        </div>
+        <!-- Service 5 -->
+        <div class="service services__service-5">
+          <i class="fa-solid fa-list-ul"></i>
+          <h3 class="services--title services__service-5--title">
+            Additional services
+          </h3>
+          <p class="services--para services__service-5--para">
+            Git, Phabricator, CI/CD, Gestalt (Pinterest's Design system)
+          </p>
+        </div>
+        <!-- Service 6 -->
+        <!-- <div class="service services__service-6">
+          <i class="fas fa-project-diagram"></i>
+          <h3 class="services--title services__service-6--title">
+            Project Management
+          </h3>
+          <p class="services--para services__service6--para">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At,
+            explicabo minus voluptatem deleniti doloremque rerum dicta vitae
+            ipsa illo doloribus. Reprehenderit hic cumque dolorem eveniet. Nemo
+            placeat aliquid delectus ipsum.
+          </p>
+        </div> -->
+      </section>
+      <!-- ***************************** Skills ***************************** -->
+      <section id="skills">
+         <!--Coding Skills-->
+        <div class="skills__coding">
+          <h3 class="skills__coding--title">Coding Skills</h3>
+          <h4>HTML / CSS</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__1"></span>
+          </div>
+          <h4>HTML5 / CSS3</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__5"></span>
+          </div>
+          <h4>JavaScript</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__2"></span>
+          </div>
+          <h4>React 16.8</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__3"></span>
+          </div>
+          <h4>React 17 & 18</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__6"></span>
+          </div>
+          <h4>TypeScript</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__4"></span>
+          </div>
+          <h4>Flow</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__7"></span>
+          </div>
+           <h4>NodeJS</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__8"></span>
+          </div>
+           <h4>Express</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__9"></span>
+          </div>
+           <h4>Postgres</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__10"></span>
+          </div>
+          <h4>Oracle Database</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__11"></span>
+          </div>
+        </div>
+        <!-- Design Skills-->
+        <div class="skills__design">
+          <h3 class="skills__design--title">Other Skills</h3>
+          <h4>Web Design</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__1"></span>
+          </div>
+         <h4>GIT</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__2"></span>
+          </div>
+          <h4>Jest</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__3"></span>
+          </div>
+          <h4>Cypress</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__4"></span>
+          </div>
+           <h4>Japanese language - N4 proficiency</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__5"></span>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- <section id="testimonials"> -->
+        <!-- Card 1 -->
+        <!-- <div class="testimonials__card">
+          <div class="testimonials__card--img">
+            <img src="img/testimonials-1.jpg" alt="tony">
+          </div>
+          <div class="testimonials__card--content">
+            <h3 class="testimonials__card--content__title">Remarkable Eye</h3>
+            <p class="testimonials__card--content__para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, rerum dolore. Accusamus dignissimos magnam, qui deserunt modi officiis beatae voluptatum odio, perferendis minus quo magni praesentium voluptatibus reprehenderit placeat consectetur.
+            </p>
+          </div>
+        </div> -->
+          <!-- Card 2 -->
+        <!-- <div class="testimonials__card">
+          <div class="testimonials__card--img">
+            <img src="img/testimonials-2.jpg" alt="natasha">
+          </div>
+          <div class="testimonials__card--content">
+            <h3 class="testimonials__card--content__title">Catchy Designs</h3>
+            <p class="testimonials__card--content__para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, rerum dolore. Accusamus dignissimos magnam, qui deserunt modi officiis beatae voluptatum odio, perferendis minus quo magni praesentium voluptatibus reprehenderit placeat consectetur.
+            </p>
+          </div>   
+        </div> -->
+          <!-- Card 3 -->
+        <!-- <div class="testimonials__card">
+          <div class="testimonials__card--img">
+            <img src="img/testimonials-3.jpg" alt="veers">
+          </div>
+          <div class="testimonials__card--content">
+            <h3 class="testimonials__card--content__title">Smoking Websites</h3>
+            <p class="testimonials__card--content__para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, rerum dolore. Accusamus dignissimos magnam, qui deserunt modi officiis beatae voluptatum odio, perferendis minus quo magni praesentium voluptatibus reprehenderit placeat consectetur.
+            </p>
+          </div>
+        </div> -->
+          <!-- Card 4 -->
+        <!-- <div class="testimonials__card">
+          <div class="testimonials__card--img">
+            <img src="img/testimonials-4.jpg" alt="odinson">
+          </div>
+          <div class="testimonials__card--content">
+            <h3 class="testimonials__card--content__title">Easy to work with</h3>
+            <p class="testimonials__card--content__para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, rerum dolore. Accusamus dignissimos magnam, qui deserunt modi officiis beatae voluptatum odio, perferendis minus quo magni praesentium voluptatibus reprehenderit placeat consectetur.
+            </p>
+          </div>
+        </div> -->
+      <!-- </section> -->
+      <section id="contact">
+        <form class="contact__form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Subject" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
